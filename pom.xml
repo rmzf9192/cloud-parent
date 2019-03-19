@@ -10,6 +10,9 @@
     <module>cloud-api</module>
     <module>cloud-provider-8001</module>
     <module>cloud-consumer-80</module>
+    <module>cloud-eureka-7001</module>
+    <module>cloud-eureka-7002</module>
+    <module>cloud-eureka-7003</module>
   </modules>
   <artifactId>cloud-parent</artifactId>
   <version>1.0-SNAPSHOT</version>
@@ -76,5 +79,24 @@
       </dependency>
     </dependencies>
   </dependencyManagement>
-
+  <build>
+    <finalName>cloud-parent</finalName>
+    <resources>
+      <resource>
+        <directory>src/main/resources</directory>
+        <filtering>true</filtering>
+      </resource>
+    </resources>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-resources-plugin</artifactId>
+        <configuration>
+          <delimiters>
+            <delimit>$</delimit>
+          </delimiters>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
 </project>
