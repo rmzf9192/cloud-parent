@@ -17,6 +17,11 @@
     <url>http://www.example.com</url>
 
     <dependencies>
+        <!--  hystrix -->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-hystrix</artifactId>
+        </dependency>
         <dependency><!-- 引入自己定义的api通用包，可以使用Dept部门Entity -->
             <groupId>com.el.cloud</groupId>
             <artifactId>cloud-api</artifactId>
@@ -67,6 +72,8 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
+
+
         <!-- 修改后立即生效，热部署 -->
         <dependency>
             <groupId>org.springframework</groupId>

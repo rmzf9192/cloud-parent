@@ -13,6 +13,15 @@
     <module>cloud-eureka-7001</module>
     <module>cloud-eureka-7002</module>
     <module>cloud-eureka-7003</module>
+    <module>cloud-provider-8002</module>
+    <module>cloud-provider-8003</module>
+    <module>cloud-cpnsumer-feign</module>
+      <module>cloud-provider-hystrix-8001</module>
+      <module>cloud-consumer-hystrix-dashboard</module>
+      <module>cloud-config-3344</module>
+    <module>cloud-config-3355</module>
+      <module>config-dept-8001</module>
+    <module>cloud-config-eureka-7001</module>
   </modules>
   <artifactId>cloud-parent</artifactId>
   <version>1.0-SNAPSHOT</version>

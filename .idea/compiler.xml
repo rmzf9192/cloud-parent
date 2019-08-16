@@ -7,11 +7,20 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="cloud-api" />
+        <module name="cloud-config-3344" />
+        <module name="cloud-config-3355" />
+        <module name="cloud-config-eureka-7001" />
         <module name="cloud-consumer-80" />
+        <module name="cloud-consumer-hystrix-dashboard" />
+        <module name="cloud-cpnsumer-feign" />
         <module name="cloud-eureka-7001" />
         <module name="cloud-eureka-7002" />
         <module name="cloud-eureka-7003" />
         <module name="cloud-provider-8001" />
+        <module name="cloud-provider-8002" />
+        <module name="cloud-provider-8003" />
+        <module name="cloud-provider-hystrix-8001" />
+        <module name="config-dept-8001" />
       </profile>
     </annotationProcessing>
   </component>
